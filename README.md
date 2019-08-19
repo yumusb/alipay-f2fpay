@@ -1,24 +1,20 @@
 ### 目录树如下  
-.
-├── AopSdk.php //SDK入口文件
-├── config.php //配置文件
-├── f2fpay //SDK文件 
-├── index.html
-├── notify.php  //异步验证文件 
-├── pay //支付页面
-│   ├── index.php
-│   ├── qrcode.class.php
-│   └── qrcode.php
-├── pay.php // 创建支付文件
-├── query.php //订单查询页面
-└── static //静态文件页面
-    ├── avatar.jpg
-    ├── erphpdown.css
-    ├── payment-alipay.png
-    └── signin.css
-
-7 directories, 29 files
-
+├── AopSdk.php //SDK入口文件   
+├── config.php //配置文件   
+├── f2fpay //SDK文件    
+├── index.html   
+├── notify.php  //异步验证文件    
+├── pay //支付页面   
+│   ├── index.php   
+│   ├── qrcode.class.php   
+│   └── qrcode.php   
+├── pay.php // 创建支付文件   
+├── query.php //订单查询页面   
+└── static //静态文件页面   
+    ├── avatar.jpg   
+    ├── erphpdown.css   
+    ├── payment-alipay.png   
+    └── signin.css   
 
 DEMO: [http://pay.i5.gs](http://pay.i5.gs)
 
@@ -32,7 +28,7 @@ DEMO: [http://pay.i5.gs](http://pay.i5.gs)
 更新记录: 
 
 2019.8.19 
-重构，现在可以`一键切换`是否需要记录订单。(config.php中) 
+重构，现在可以`一键切换`是否需要记录订单。(config.php中)   
 2019.8.5 
 第一次提交
 
