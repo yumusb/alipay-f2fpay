@@ -1,4 +1,5 @@
 ### 目录树如下  
+├── demo 目录为对接的一些程序，能用的
 ├── AopSdk.php //SDK入口文件   
 ├── config.php //配置文件   
 ├── f2fpay //SDK文件    
@@ -16,7 +17,11 @@
     ├── payment-alipay.png   
     └── signin.css   
 
+
 DEMO: [http://pay.i5.gs](http://pay.i5.gs)
+
+对接程序DEMO
+发卡 [http://ka.i5.gs](http://ka.i5.gs)
 
 ---
 
@@ -26,7 +31,8 @@ DEMO: [http://pay.i5.gs](http://pay.i5.gs)
 ---
 
 更新记录: 
-
+2019.8.27  
+新增一个发卡的DEMO  
 2019.8.19 
 重构，现在可以`一键切换`是否需要记录订单。(config.php中)   
 2019.8.5 
