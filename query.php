@@ -12,7 +12,7 @@ header("Content-type: text/html; charset=utf-8");
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     exit();
 }
-require_once './f2fpay/service/AlipayTradeService.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR .'f2fpay/service/AlipayTradeService.php';
 
 $out_trade_no = trim($_POST['no']);
 

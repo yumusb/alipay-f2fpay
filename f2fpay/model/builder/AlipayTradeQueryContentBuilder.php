@@ -5,7 +5,7 @@
  * Date: 16/5/19
  * Time: 下午2:09
  */
-require_once 'ContentBuilder.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'ContentBuilder.php';
 
 class AlipayTradeQueryContentBuilder extends ContentBuilder
 {

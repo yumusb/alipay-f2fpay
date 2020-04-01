@@ -11,8 +11,8 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     exitt();
 }
 
-require_once './f2fpay/model/builder/AlipayTradePrecreateContentBuilder.php';
-require_once './f2fpay/service/AlipayTradeService.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR .'f2fpay/model/builder/AlipayTradePrecreateContentBuilder.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR .'f2fpay/service/AlipayTradeService.php';
 
 $outTradeNo = md5(time() . "91445646fsd6fsdfs4564544"); //生成订单账号。要保证唯一性。可以改用其他更符合自己的算法。
 //$totalAmount = round(trim($_POST['amount']), 2); //错误写法 这样并不会对整数以及一位小数后面补0

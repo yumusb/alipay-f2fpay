@@ -8,8 +8,8 @@
  */
 
 error_reporting(0);
-require_once './f2fpay/model/builder/AopClient.php';
-require_once './config.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR .'f2fpay/model/builder/AopClient.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR .'config.php';
 if (isset($_GET['check'])) {
 	exit("notify is OK");
 }

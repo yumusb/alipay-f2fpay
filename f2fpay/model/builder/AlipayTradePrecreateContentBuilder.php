@@ -6,10 +6,10 @@
  * Time: 下午2:09
  */
 
-require_once 'GoodsDetail.php';
-require_once 'ExtendParams.php';
-require_once 'RoyaltyDetailInfo.php';
-require_once 'ContentBuilder.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR .'GoodsDetail.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'ExtendParams.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'RoyaltyDetailInfo.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'ContentBuilder.php';
 
 class AlipayTradePrecreateContentBuilder extends ContentBuilder
 {
