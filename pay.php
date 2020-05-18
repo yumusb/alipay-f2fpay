@@ -57,7 +57,7 @@ $form['qr'] = $qr;
 
 $sHtml = "<form id='alipaysubmit' name='alipaysubmit' action='./pay/' method='POST'>";
 
-while (list($key, $val) = each($form)) {
+foreach ($form as $key => $val) {
     if ($val!=null) {
         //$val = $this->characet($val, $this->postCharset);
         $val = str_replace("'", "&apos;", $val);
