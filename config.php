@@ -21,7 +21,7 @@ const NeedTakeNote = 'no';
 
 
 $http_type = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) ? 'https://' : 'http://';
-$url = dirname($http_type . $_SERVER['SERVER_NAME'] . $_SERVER["REQUEST_URI"]) . "/notify.php";
+$url = dirname($http_type . $_SERVER['HTTP_HOST'] . $_SERVER["REQUEST_URI"]) . "/notify.php";
 
 //echo "{$url}?check"; //访问这个输出的url检测回调可用性
 $alipay_config = array(
